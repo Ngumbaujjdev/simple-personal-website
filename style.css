@@ -1,0 +1,129 @@
+
+body{
+    margin: 0;
+    color: #d8d8d8;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    color: #562B08;
+    font-size: 563%
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #562B08;
+    font-size: 2.65rem;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #647E68;
+    margin: 20px auto;
+    font-size: 30px;
+}
+p{
+    line-height: 2;
+    color: #647E68;
+}
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 10%;
+}
+.background{
+  position: relative;
+  background-color: #d8d8d8;
+  padding-top: 100px;
+  background-image: url("/background.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.web{
+    text-decoration: underline;
+}
+.middle{
+    margin:100px auto;
+}
+hr{
+    width: 20%;
+    border: 6px dotted #562B08;
+    border-bottom: none;
+    margin: 20px auto 20px auto;
+}
+.dev{
+    color: #562B08;
+}
+.he{
+    color: #647E68;
+}
+
+.skill-row{
+    margin: 100px auto;
+    text-align: center;
+    width: 50%;
+}
+.skill-row p{
+    text-align: start;
+    margin: 20px auto;
+}
+.one   {
+    float: right;
+    margin-left: 20px;
+    width: 20%;
+}
+.two{
+    float: left;
+    margin-right: 20px;
+    width: 20%;
+}
+.contact-me{
+    margin: 40px auto;
+    width: 40%;
+}
+.btn{
+    text-decoration: none;
+    color: #cccccc;
+    background-color: #647E68;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.btn:hover{
+    background-color: #562B08;
+    color: #d8d8d8;
+}
+.bottom{
+    margin-top: 60px;
+    background-color: #647E68;
+    height: 30vh;
+    width: 100%;
+    color: #562B08;
+}
+.bottom a{
+    color: #cccccc;
+    text-decoration: none;
+    padding: 60px 15px;
+    margin: 100px auto;
+}
+.bottom a:hover{
+    color: #562B08;
+    border: 1px solid #cccccc;
+    border-radius: 7px;
+    padding: 0px 10px;
+    background-color: #cccccc;
+}
+.copyright{
+    color:#562B08;
+    font-style: italic;
+}
